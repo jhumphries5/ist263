@@ -22,16 +22,21 @@
              <h2>Contact Selection</h2><br>
              <h2>What Time Works Best?</h2><br>
 
-             <form action="https://formspree.io/f/xzborvpq" method="post"></form>
-             <label for="Time">Time</label>
+             <form action="https://formspree.io/f/xzborvpq" method="POST">
+            <label for="FullName">Full Name</label> 
+            <input type="text" name="Fullname" id="Fullname"><br>
+             <label for="Time">Time</label><br>
             <select id="Time" name="Time">
                 <option value="morning">Morning</option>
                 <option value="afternoon">Afternoon</option>
                 <option value="evening">Evening</option>
             </select><br>
+            <input type="text" name="Comments" id="Comments">
+             <label for="Comments">Comments</label><br>
+            
 
             <input type="submit" value="Send Order">
-
+            </form>
    </body>
 
 </html>
