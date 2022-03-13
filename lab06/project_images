@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head> 
+        <meta charset="utf-8">
+        <title>Project Images</title>
+    </head>
+
+    <body>
+            <h1>Project Images</h1>
+            <img scr="/Pictures/ist263_Project(1).jpg" alt="Fried Rice"><br>
+
+            <img scr="ist263_Project(2).jpg" alt="Oatmeal"><br>
+
+            <img scr="ist263_Project(3).jpg" alt="Chicken and Vegetables"><br>
+
+            <img scr="ist263_Project(4).jpg" alt="Sweet Potato Fries"><br>
+
+            <img scr="ist263_Project(5).jpg" alt="Turkey Wrap"><br>
+
+            <img scr="ist263_Project(6).jpg" alt="Stir Fry"><br>
+            
+            <img scr="ist263_Project(7).png" alt="Banana Bread"><br>
+
+            <img scr="ist263_Project(8).jpg" alt="Stuffed Peppers"><br>
+
+            <img scr="ist263_Project(9).jpg" alt="Salmon"><br>
+        </body>
+
+</html>
+
+
