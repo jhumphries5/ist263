@@ -9,7 +9,7 @@
 
     <body>
             <h1>Project Images</h1>
-            <img scr="/Pictures/ist263_Project(1).jpg" alt="Fried Rice"><br>
+            <img scr="ist263_Project(1).jpg" alt="Fried Rice"><br>
 
             <img scr="ist263_Project(2).jpg" alt="Oatmeal"><br>
 
