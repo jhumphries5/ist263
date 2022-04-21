@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 11</title>
+        <script>
+            function WinnerMessage () {
+                document.getElementById("messages").innerHTML = 'You Won!';
+            }
+            function TryAgain () {
+                document.getElementByID("messages").innerHTML = 'Wrong Shell - Try Again';
+            }
+
+        function ShuffleShells() {
+            document.getElementById("first").style.order = Math.floor((Math.random() * 3) +2);
+        }
+        </script>
+
+        <style>
+            .container {
+                display: flex;
+            }
+            #first {order: 1;}
+            #second {order: 2;}
+            #third {order: 3;}
+        </style>
+
+
+    </head>
+    <body onload="ShuffleShells();">
+        <h1>Choose a Walnut</h1>
+
+        <div class="container">
+        <img src="C:\Users\18453\OneDrive\Desktop\ist263\week11\walnut.jpg" id="first" alt="first walunt" onclick="WinneMessage();">
+        <img src="C:\Users\18453\OneDrive\Desktop\ist263\week11\walnut.jpg" id="second" alt="second walunt" onclick="TryAgain();">
+        <img src="C:\Users\18453\OneDrive\Desktop\ist263\week11\walnut.jpg" id="third" alt="third walunt" onclick="TryAgain();">
+        </div>
+
+        <div id="messages"></div>
+    </body>
+
+
+</html>
